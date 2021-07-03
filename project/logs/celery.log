@@ -1,0 +1,730 @@
+[2021-07-03 21:13:19,862: INFO/MainProcess] Connected to redis://redis:6379/0
+[2021-07-03 21:13:19,871: INFO/MainProcess] mingle: searching for neighbors
+[2021-07-03 21:13:20,890: INFO/MainProcess] mingle: all alone
+[2021-07-03 21:13:20,902: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/fixups/django.py:205: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2021-07-03 21:13:20,902: INFO/MainProcess] celery@18f3f9855361 ready.
+[2021-07-03 21:13:20,904: INFO/MainProcess] Received task: tasks.sample_tasks.check[143f1bfc-f90c-4b56-bba9-c099ba947a32]  
+[2021-07-03 21:13:20,906: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:13:20,915: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[143f1bfc-f90c-4b56-bba9-c099ba947a32] succeeded in 0.009830197999690427s: None
+[2021-07-03 21:13:28,408: INFO/MainProcess] Received task: tasks.sample_tasks.check[deb599f5-0078-4e90-b105-b02a6f049c75]  
+[2021-07-03 21:13:28,410: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:13:28,411: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[deb599f5-0078-4e90-b105-b02a6f049c75] succeeded in 0.001584640998771647s: None
+[2021-07-03 21:13:38,407: INFO/MainProcess] Received task: tasks.sample_tasks.check[92026685-6d5f-4bbf-8d0a-6d56bb930e33]  
+[2021-07-03 21:13:38,408: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:13:38,408: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[92026685-6d5f-4bbf-8d0a-6d56bb930e33] succeeded in 0.0007238749967655167s: None
+[2021-07-03 21:13:48,407: INFO/MainProcess] Received task: tasks.sample_tasks.check[c61a462f-359e-46c7-b166-24ba868e9b3d]  
+[2021-07-03 21:13:48,408: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:13:48,409: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[c61a462f-359e-46c7-b166-24ba868e9b3d] succeeded in 0.000812928999948781s: None
+[2021-07-03 21:13:58,407: INFO/MainProcess] Received task: tasks.sample_tasks.check[42294a61-b828-4436-87cd-f15a153e0fbc]  
+[2021-07-03 21:13:58,408: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:13:58,409: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[42294a61-b828-4436-87cd-f15a153e0fbc] succeeded in 0.0009049590007634833s: None
+[2021-07-03 21:14:08,407: INFO/MainProcess] Received task: tasks.sample_tasks.check[2b925464-d2e0-4e06-94be-eace093e4684]  
+[2021-07-03 21:14:08,408: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:14:08,409: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[2b925464-d2e0-4e06-94be-eace093e4684] succeeded in 0.0008152360023814254s: None
+[2021-07-03 21:14:18,407: INFO/MainProcess] Received task: tasks.sample_tasks.check[a4e71eb5-701d-48a9-b01c-14e6deebad0f]  
+[2021-07-03 21:14:18,408: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:14:18,409: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[a4e71eb5-701d-48a9-b01c-14e6deebad0f] succeeded in 0.0008826129997032695s: None
+[2021-07-03 21:14:28,407: INFO/MainProcess] Received task: tasks.sample_tasks.check[d9401442-330d-48e7-832e-dec11fcda843]  
+[2021-07-03 21:14:28,408: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:14:28,409: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[d9401442-330d-48e7-832e-dec11fcda843] succeeded in 0.0008505949990649242s: None
+[2021-07-03 21:14:38,408: INFO/MainProcess] Received task: tasks.sample_tasks.check[0c3c0b49-eb5f-494d-8266-f22487ebbbf5]  
+[2021-07-03 21:14:38,408: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:14:38,409: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[0c3c0b49-eb5f-494d-8266-f22487ebbbf5] succeeded in 0.0009368550017825328s: None
+[2021-07-03 21:14:48,408: INFO/MainProcess] Received task: tasks.sample_tasks.check[bf793d0a-6175-4141-8a2d-7b90b86fb4e5]  
+[2021-07-03 21:14:48,409: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:14:48,410: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[bf793d0a-6175-4141-8a2d-7b90b86fb4e5] succeeded in 0.0009753919985087123s: None
+[2021-07-03 21:14:58,408: INFO/MainProcess] Received task: tasks.sample_tasks.check[7e21146c-f219-46d8-b944-a18bd9e09a32]  
+[2021-07-03 21:14:58,409: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:14:58,410: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[7e21146c-f219-46d8-b944-a18bd9e09a32] succeeded in 0.0010170619971177075s: None
+[2021-07-03 21:15:08,408: INFO/MainProcess] Received task: tasks.sample_tasks.check[761c60ee-879c-4f99-a6ef-3d75713b3fda]  
+[2021-07-03 21:15:08,409: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:15:08,409: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[761c60ee-879c-4f99-a6ef-3d75713b3fda] succeeded in 0.0006918459985172376s: None
+[2021-07-03 21:15:18,408: INFO/MainProcess] Received task: tasks.sample_tasks.check[21d533fe-4978-436a-9400-7501344bd1d2]  
+[2021-07-03 21:15:18,409: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:15:18,409: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[21d533fe-4978-436a-9400-7501344bd1d2] succeeded in 0.0006823839976277668s: None
+[2021-07-03 21:15:28,408: INFO/MainProcess] Received task: tasks.sample_tasks.check[daf2f78b-3ec7-4dee-a4ee-f6bb4c93d256]  
+[2021-07-03 21:15:28,409: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:15:28,410: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[daf2f78b-3ec7-4dee-a4ee-f6bb4c93d256] succeeded in 0.0007826550026948098s: None
+[2021-07-03 21:15:38,409: INFO/MainProcess] Received task: tasks.sample_tasks.check[5012f8f9-f415-405b-aee9-487db5a9402a]  
+[2021-07-03 21:15:38,409: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:15:38,410: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[5012f8f9-f415-405b-aee9-487db5a9402a] succeeded in 0.0009048350002558436s: None
+[2021-07-03 21:15:48,409: INFO/MainProcess] Received task: tasks.sample_tasks.check[c09b2554-9f65-4e5c-9f15-935c3a9b2b04]  
+[2021-07-03 21:15:48,409: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:15:48,410: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[c09b2554-9f65-4e5c-9f15-935c3a9b2b04] succeeded in 0.000878056998772081s: None
+[2021-07-03 21:15:58,409: INFO/MainProcess] Received task: tasks.sample_tasks.check[0bb98fe3-d177-4d5e-853a-2d962fe2dc7f]  
+[2021-07-03 21:15:58,410: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:15:58,411: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[0bb98fe3-d177-4d5e-853a-2d962fe2dc7f] succeeded in 0.001062981002178276s: None
+[2021-07-03 21:16:08,409: INFO/MainProcess] Received task: tasks.sample_tasks.check[85957522-1e19-4c52-8b96-aaba28cc25c8]  
+[2021-07-03 21:16:08,410: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:16:08,411: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[85957522-1e19-4c52-8b96-aaba28cc25c8] succeeded in 0.0009486849994573276s: None
+[2021-07-03 21:16:18,409: INFO/MainProcess] Received task: tasks.sample_tasks.check[1c9e48ae-b5b9-419f-973c-6eaeec529a74]  
+[2021-07-03 21:16:18,410: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:16:18,410: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[1c9e48ae-b5b9-419f-973c-6eaeec529a74] succeeded in 0.0008794159984972794s: None
+[2021-07-03 21:16:28,409: INFO/MainProcess] Received task: tasks.sample_tasks.check[ac21936f-1027-4db9-ad71-6470f8294bcc]  
+[2021-07-03 21:16:28,410: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:16:28,411: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[ac21936f-1027-4db9-ad71-6470f8294bcc] succeeded in 0.0008738739998079836s: None
+[2021-07-03 21:16:38,410: INFO/MainProcess] Received task: tasks.sample_tasks.check[060d04a8-5949-4a5f-bccc-73aed49956e7]  
+[2021-07-03 21:16:38,411: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:16:38,412: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[060d04a8-5949-4a5f-bccc-73aed49956e7] succeeded in 0.001085289000911871s: None
+[2021-07-03 21:16:48,414: INFO/MainProcess] Received task: tasks.sample_tasks.check[d6f63e13-f650-4b94-8345-6f95aed33167]  
+[2021-07-03 21:16:48,416: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:16:48,417: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[d6f63e13-f650-4b94-8345-6f95aed33167] succeeded in 0.0012535119967651553s: None
+[2021-07-03 21:16:58,410: INFO/MainProcess] Received task: tasks.sample_tasks.check[5c9610b1-068d-4966-8147-5559728c70f4]  
+[2021-07-03 21:16:58,411: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:16:58,411: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[5c9610b1-068d-4966-8147-5559728c70f4] succeeded in 0.0009756899999047164s: None
+[2021-07-03 21:17:08,410: INFO/MainProcess] Received task: tasks.sample_tasks.check[9ca58102-b23e-44d4-a5f2-279b6efcff7f]  
+[2021-07-03 21:17:08,411: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:17:08,411: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[9ca58102-b23e-44d4-a5f2-279b6efcff7f] succeeded in 0.0008338400002685376s: None
+[2021-07-03 21:17:18,414: INFO/MainProcess] Received task: tasks.sample_tasks.check[5c759bde-b68e-4083-ad73-1963c26f3138]  
+[2021-07-03 21:17:18,416: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:17:18,418: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[5c759bde-b68e-4083-ad73-1963c26f3138] succeeded in 0.0017753640022419859s: None
+[2021-07-03 21:17:28,410: INFO/MainProcess] Received task: tasks.sample_tasks.check[91f3008d-08bb-4115-ac61-00e8d4abf927]  
+[2021-07-03 21:17:28,411: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:17:28,412: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[91f3008d-08bb-4115-ac61-00e8d4abf927] succeeded in 0.0009183260008285288s: None
+[2021-07-03 21:17:38,410: INFO/MainProcess] Received task: tasks.sample_tasks.check[76b05812-4bf3-4844-bda2-86fdb5d68da3]  
+[2021-07-03 21:17:38,411: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:17:38,411: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[76b05812-4bf3-4844-bda2-86fdb5d68da3] succeeded in 0.000868863000505371s: None
+[2021-07-03 21:17:48,410: INFO/MainProcess] Received task: tasks.sample_tasks.check[474e9121-2a91-4cf4-8ea6-08eb7369cd80]  
+[2021-07-03 21:17:48,411: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:17:48,411: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[474e9121-2a91-4cf4-8ea6-08eb7369cd80] succeeded in 0.000819108998257434s: None
+[2021-07-03 21:17:58,410: INFO/MainProcess] Received task: tasks.sample_tasks.check[cff54abf-b41f-4f03-bcb0-50dca7b82daa]  
+[2021-07-03 21:17:58,411: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:17:58,412: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[cff54abf-b41f-4f03-bcb0-50dca7b82daa] succeeded in 0.0009663089986133855s: None
+[2021-07-03 21:18:08,412: INFO/MainProcess] Received task: tasks.sample_tasks.check[3bb8256e-b74c-4361-bb9f-77d3019f950c]  
+[2021-07-03 21:18:08,413: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:18:08,414: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[3bb8256e-b74c-4361-bb9f-77d3019f950c] succeeded in 0.0012548359991342295s: None
+[2021-07-03 21:18:18,410: INFO/MainProcess] Received task: tasks.sample_tasks.check[f6aee0d4-b2d6-4007-a403-5a88b38f888f]  
+[2021-07-03 21:18:18,411: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:18:18,412: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[f6aee0d4-b2d6-4007-a403-5a88b38f888f] succeeded in 0.0009660129981057253s: None
+[2021-07-03 21:18:28,411: INFO/MainProcess] Received task: tasks.sample_tasks.check[770f6266-228d-44cf-9071-88ad7acc0bb5]  
+[2021-07-03 21:18:28,412: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:18:28,413: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[770f6266-228d-44cf-9071-88ad7acc0bb5] succeeded in 0.0009804049986996688s: None
+[2021-07-03 21:18:38,415: INFO/MainProcess] Received task: tasks.sample_tasks.check[c0afd292-1fb9-44e4-bee6-1d0b2ef1d71a]  
+[2021-07-03 21:18:38,417: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:18:38,419: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[c0afd292-1fb9-44e4-bee6-1d0b2ef1d71a] succeeded in 0.0015008039990789257s: None
+[2021-07-03 21:18:48,411: INFO/MainProcess] Received task: tasks.sample_tasks.check[a3e4f4ca-55d4-4979-8335-6b5a33af6579]  
+[2021-07-03 21:18:48,412: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:18:48,412: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[a3e4f4ca-55d4-4979-8335-6b5a33af6579] succeeded in 0.0009669290011515841s: None
+[2021-07-03 21:18:58,416: INFO/MainProcess] Received task: tasks.sample_tasks.check[7dccf48e-1bad-4dc8-bb55-954e8713ce1a]  
+[2021-07-03 21:18:58,418: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:18:58,420: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[7dccf48e-1bad-4dc8-bb55-954e8713ce1a] succeeded in 0.002711178000026848s: None
+[2021-07-03 21:19:08,416: INFO/MainProcess] Received task: tasks.sample_tasks.check[39d4542b-983b-4304-994a-b98517c7272c]  
+[2021-07-03 21:19:08,418: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:19:08,421: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[39d4542b-983b-4304-994a-b98517c7272c] succeeded in 0.0029039920009381603s: None
+[2021-07-03 21:19:18,417: INFO/MainProcess] Received task: tasks.sample_tasks.check[9cc4c0d8-d80b-46e7-8033-03ddf482ee35]  
+[2021-07-03 21:19:18,419: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:19:18,422: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[9cc4c0d8-d80b-46e7-8033-03ddf482ee35] succeeded in 0.0027815589965030085s: None
+[2021-07-03 21:19:28,418: INFO/MainProcess] Received task: tasks.sample_tasks.check[4f63a665-0c52-4627-8b4a-b5c4048f1c7e]  
+[2021-07-03 21:19:28,421: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:19:28,423: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[4f63a665-0c52-4627-8b4a-b5c4048f1c7e] succeeded in 0.0027730499969038647s: None
+[2021-07-03 21:19:38,414: INFO/MainProcess] Received task: tasks.sample_tasks.check[cfd84eae-4f83-4780-912a-9c542964d6e4]  
+[2021-07-03 21:19:38,415: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:19:38,416: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[cfd84eae-4f83-4780-912a-9c542964d6e4] succeeded in 0.0008834219988784753s: None
+[2021-07-03 21:19:48,420: INFO/MainProcess] Received task: tasks.sample_tasks.check[abccda7f-4e96-41ac-be10-8698a0a17f5c]  
+[2021-07-03 21:19:48,422: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:19:48,425: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[abccda7f-4e96-41ac-be10-8698a0a17f5c] succeeded in 0.003106164000200806s: None
+[2021-07-03 21:19:58,419: INFO/MainProcess] Received task: tasks.sample_tasks.check[250ea80e-c16c-4f4e-a3d1-3c289322ddfb]  
+[2021-07-03 21:19:58,422: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:19:58,425: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[250ea80e-c16c-4f4e-a3d1-3c289322ddfb] succeeded in 0.003147204999550013s: None
+[2021-07-03 21:20:08,415: INFO/MainProcess] Received task: tasks.sample_tasks.check[4ae2f792-e832-4ec2-8a14-938509a72756]  
+[2021-07-03 21:20:08,416: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:20:08,417: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[4ae2f792-e832-4ec2-8a14-938509a72756] succeeded in 0.0009541830004309304s: None
+[2021-07-03 21:20:18,416: INFO/MainProcess] Received task: tasks.sample_tasks.check[8bab3f44-f3f8-4fe0-b648-722698b38a19]  
+[2021-07-03 21:20:18,416: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:20:18,417: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[8bab3f44-f3f8-4fe0-b648-722698b38a19] succeeded in 0.0009525000023131724s: None
+[2021-07-03 21:20:28,420: INFO/MainProcess] Received task: tasks.sample_tasks.check[7f442f34-c580-4fea-ba14-0bb8e5e7dedd]  
+[2021-07-03 21:20:28,422: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:20:28,425: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[7f442f34-c580-4fea-ba14-0bb8e5e7dedd] succeeded in 0.0026991949998773634s: None
+[2021-07-03 21:20:38,417: INFO/MainProcess] Received task: tasks.sample_tasks.check[b2dd79f8-b552-4bf1-874f-e6231ec9e700]  
+[2021-07-03 21:20:38,417: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:20:38,418: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[b2dd79f8-b552-4bf1-874f-e6231ec9e700] succeeded in 0.00103545700039831s: None
+[2021-07-03 21:20:48,421: INFO/MainProcess] Received task: tasks.sample_tasks.check[d8486895-1c46-464d-b425-9111e072f2de]  
+[2021-07-03 21:20:48,424: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:20:48,426: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[d8486895-1c46-464d-b425-9111e072f2de] succeeded in 0.0027090960029454436s: None
+[2021-07-03 21:20:58,418: INFO/MainProcess] Received task: tasks.sample_tasks.check[d203c237-187b-4a82-a7d3-340d3c068ca4]  
+[2021-07-03 21:20:58,419: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:20:58,421: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[d203c237-187b-4a82-a7d3-340d3c068ca4] succeeded in 0.0014788049993512686s: None
+[2021-07-03 21:21:08,417: INFO/MainProcess] Received task: tasks.sample_tasks.check[58af37eb-b34d-4afe-a61d-a5f1dec2c998]  
+[2021-07-03 21:21:08,418: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:21:08,419: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[58af37eb-b34d-4afe-a61d-a5f1dec2c998] succeeded in 0.0009428510020370595s: None
+[2021-07-03 21:21:18,416: INFO/MainProcess] Received task: tasks.sample_tasks.check[60d0d45b-4484-42f6-8047-8a4e98a35da9]  
+[2021-07-03 21:21:18,417: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:21:18,418: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[60d0d45b-4484-42f6-8047-8a4e98a35da9] succeeded in 0.0010768339998321608s: None
+[2021-07-03 21:21:28,416: INFO/MainProcess] Received task: tasks.sample_tasks.check[d3449171-1e15-4b2c-b8b6-ad2ceb9662ca]  
+[2021-07-03 21:21:28,417: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:21:28,418: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[d3449171-1e15-4b2c-b8b6-ad2ceb9662ca] succeeded in 0.0008988390000013169s: None
+[2021-07-03 21:21:38,418: INFO/MainProcess] Received task: tasks.sample_tasks.check[9a9f5260-7b2e-4fb4-94be-ec86c05990f4]  
+[2021-07-03 21:21:38,419: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:21:38,420: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[9a9f5260-7b2e-4fb4-94be-ec86c05990f4] succeeded in 0.0013885669977753423s: None
+[2021-07-03 21:21:48,422: INFO/MainProcess] Received task: tasks.sample_tasks.check[95521c0f-84a9-4b84-aee4-ccdd1f40b97e]  
+[2021-07-03 21:21:48,424: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:21:48,427: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[95521c0f-84a9-4b84-aee4-ccdd1f40b97e] succeeded in 0.0027447950014902744s: None
+[2021-07-03 21:21:58,422: INFO/MainProcess] Received task: tasks.sample_tasks.check[eb466a57-6727-413d-aabf-3a6bbf773a7b]  
+[2021-07-03 21:21:58,425: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:21:58,427: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[eb466a57-6727-413d-aabf-3a6bbf773a7b] succeeded in 0.0027454269984446s: None
+[2021-07-03 21:22:08,422: INFO/MainProcess] Received task: tasks.sample_tasks.check[c03e423d-9e85-4ad9-ab03-57c41e331537]  
+[2021-07-03 21:22:08,424: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:22:08,427: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[c03e423d-9e85-4ad9-ab03-57c41e331537] succeeded in 0.0026006629996118136s: None
+[2021-07-03 21:22:18,418: INFO/MainProcess] Received task: tasks.sample_tasks.check[5868a416-36ae-4007-80bd-090e2681a435]  
+[2021-07-03 21:22:18,419: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:22:18,419: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[5868a416-36ae-4007-80bd-090e2681a435] succeeded in 0.0008647309987281915s: None
+[2021-07-03 21:22:28,425: INFO/MainProcess] Received task: tasks.sample_tasks.check[a58c9e4a-0f50-496d-9668-a9f9fc45f0cb]  
+[2021-07-03 21:22:28,427: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:22:28,430: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[a58c9e4a-0f50-496d-9668-a9f9fc45f0cb] succeeded in 0.002750109000771772s: None
+[2021-07-03 21:22:38,421: INFO/MainProcess] Received task: tasks.sample_tasks.check[1afd19ce-5105-4263-a025-6efbe52c96f5]  
+[2021-07-03 21:22:38,422: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:22:38,423: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[1afd19ce-5105-4263-a025-6efbe52c96f5] succeeded in 0.0012334440034464933s: None
+[2021-07-03 21:22:48,421: INFO/MainProcess] Received task: tasks.sample_tasks.check[9f66008e-1e4c-4224-82b0-b6938c5439ba]  
+[2021-07-03 21:22:48,422: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:22:48,423: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[9f66008e-1e4c-4224-82b0-b6938c5439ba] succeeded in 0.0010813110020535532s: None
+[2021-07-03 21:22:58,424: INFO/MainProcess] Received task: tasks.sample_tasks.check[52aa6450-e9f5-4512-bfae-a1b3ca7ba0f2]  
+[2021-07-03 21:22:58,425: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:22:58,427: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[52aa6450-e9f5-4512-bfae-a1b3ca7ba0f2] succeeded in 0.002202718002081383s: None
+[2021-07-03 21:23:08,421: INFO/MainProcess] Received task: tasks.sample_tasks.check[33ca89dd-cb4a-4ee0-b5d5-75b57111d298]  
+[2021-07-03 21:23:08,422: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:23:08,423: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[33ca89dd-cb4a-4ee0-b5d5-75b57111d298] succeeded in 0.0008816869994916487s: None
+[2021-07-03 21:23:18,421: INFO/MainProcess] Received task: tasks.sample_tasks.check[82bdc0eb-8afc-4837-8fa6-fc9c8f882b15]  
+[2021-07-03 21:23:18,422: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:23:18,423: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[82bdc0eb-8afc-4837-8fa6-fc9c8f882b15] succeeded in 0.0009395289998792578s: None
+[2021-07-03 21:23:28,422: INFO/MainProcess] Received task: tasks.sample_tasks.check[b8e5ffbf-5a91-4cfb-ab0a-2431a3500d0a]  
+[2021-07-03 21:23:28,422: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:23:28,423: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[b8e5ffbf-5a91-4cfb-ab0a-2431a3500d0a] succeeded in 0.000981495002633892s: None
+[2021-07-03 21:23:38,422: INFO/MainProcess] Received task: tasks.sample_tasks.check[6050eb37-051c-4a08-b1ca-b1a72830c82e]  
+[2021-07-03 21:23:38,423: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:23:38,423: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[6050eb37-051c-4a08-b1ca-b1a72830c82e] succeeded in 0.00091309699928388s: None
+[2021-07-03 21:23:48,422: INFO/MainProcess] Received task: tasks.sample_tasks.check[4f6e4c70-87f2-41c9-8202-f3a10f17cb28]  
+[2021-07-03 21:23:48,422: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:23:48,423: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[4f6e4c70-87f2-41c9-8202-f3a10f17cb28] succeeded in 0.0009658499984652735s: None
+[2021-07-03 21:23:58,422: INFO/MainProcess] Received task: tasks.sample_tasks.check[8ad072e2-5e8d-4f65-b226-5a1bb2098189]  
+[2021-07-03 21:23:58,422: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:23:58,423: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[8ad072e2-5e8d-4f65-b226-5a1bb2098189] succeeded in 0.0009699990005174186s: None
+[2021-07-03 21:24:08,422: INFO/MainProcess] Received task: tasks.sample_tasks.check[c22b7bdd-bc0f-4029-9f66-61a80f1097bf]  
+[2021-07-03 21:24:08,423: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:24:08,424: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[c22b7bdd-bc0f-4029-9f66-61a80f1097bf] succeeded in 0.0009491730015724897s: None
+[2021-07-03 21:24:18,422: INFO/MainProcess] Received task: tasks.sample_tasks.check[a753f3a7-9419-4843-873c-309f6b8b9988]  
+[2021-07-03 21:24:18,423: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:24:18,424: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[a753f3a7-9419-4843-873c-309f6b8b9988] succeeded in 0.0008298499997181352s: None
+[2021-07-03 21:24:28,426: INFO/MainProcess] Received task: tasks.sample_tasks.check[05fa505a-5d13-4172-992a-e88e17d35e6d]  
+[2021-07-03 21:24:28,428: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:24:28,431: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[05fa505a-5d13-4172-992a-e88e17d35e6d] succeeded in 0.0027017059983336367s: None
+[2021-07-03 21:24:38,425: INFO/MainProcess] Received task: tasks.sample_tasks.check[d6035aae-3d32-4fd5-9b87-138c00ae43d3]  
+[2021-07-03 21:24:38,427: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:24:38,429: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[d6035aae-3d32-4fd5-9b87-138c00ae43d3] succeeded in 0.002315660000022035s: None
+[2021-07-03 21:24:48,423: INFO/MainProcess] Received task: tasks.sample_tasks.check[fd6fb330-8fb4-4ab5-bd98-7725dab27827]  
+[2021-07-03 21:24:48,423: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:24:48,424: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[fd6fb330-8fb4-4ab5-bd98-7725dab27827] succeeded in 0.0009811849995458033s: None
+[2021-07-03 21:24:58,422: INFO/MainProcess] Received task: tasks.sample_tasks.check[629bd57e-fd52-4b2e-b316-ea8eab7e0c8a]  
+[2021-07-03 21:24:58,423: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:24:58,424: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[629bd57e-fd52-4b2e-b316-ea8eab7e0c8a] succeeded in 0.0008618559986643959s: None
+[2021-07-03 21:25:08,422: INFO/MainProcess] Received task: tasks.sample_tasks.check[c36808b3-bac2-4375-81e8-7f57f291d213]  
+[2021-07-03 21:25:08,423: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:25:08,424: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[c36808b3-bac2-4375-81e8-7f57f291d213] succeeded in 0.0007136710009945091s: None
+[2021-07-03 21:25:18,423: INFO/MainProcess] Received task: tasks.sample_tasks.check[5f36663b-1e92-4aaa-980d-b2f3c262c992]  
+[2021-07-03 21:25:18,423: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:25:18,424: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[5f36663b-1e92-4aaa-980d-b2f3c262c992] succeeded in 0.0010260689996357542s: None
+[2021-07-03 21:25:28,424: INFO/MainProcess] Received task: tasks.sample_tasks.check[b9408c0f-799e-43a8-8065-4a52f9e007a2]  
+[2021-07-03 21:25:28,424: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:25:28,425: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[b9408c0f-799e-43a8-8065-4a52f9e007a2] succeeded in 0.0008402259991271421s: None
+[2021-07-03 21:25:38,424: INFO/MainProcess] Received task: tasks.sample_tasks.check[0bd02147-2c96-4958-a695-efc5e42530b6]  
+[2021-07-03 21:25:38,425: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:25:38,427: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[0bd02147-2c96-4958-a695-efc5e42530b6] succeeded in 0.0013088490013615228s: None
+[2021-07-03 21:25:48,424: INFO/MainProcess] Received task: tasks.sample_tasks.check[0f34968b-be7b-4784-9a46-e53416c75b5a]  
+[2021-07-03 21:25:48,425: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:25:48,425: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[0f34968b-be7b-4784-9a46-e53416c75b5a] succeeded in 0.000936503001867095s: None
+[2021-07-03 21:25:58,424: INFO/MainProcess] Received task: tasks.sample_tasks.check[37a6843d-2817-42d1-950d-cd37dc146117]  
+[2021-07-03 21:25:58,425: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:25:58,426: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[37a6843d-2817-42d1-950d-cd37dc146117] succeeded in 0.0010699819977162406s: None
+[2021-07-03 21:26:08,424: INFO/MainProcess] Received task: tasks.sample_tasks.check[c4484f7d-7796-4f61-8a68-6059b4e17d02]  
+[2021-07-03 21:26:08,425: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:26:08,426: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[c4484f7d-7796-4f61-8a68-6059b4e17d02] succeeded in 0.0007761490014672745s: None
+[2021-07-03 21:26:18,428: INFO/MainProcess] Received task: tasks.sample_tasks.check[1b705482-1236-4fb1-a552-b2d5e91daa84]  
+[2021-07-03 21:26:18,431: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:26:18,433: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[1b705482-1236-4fb1-a552-b2d5e91daa84] succeeded in 0.0026576390009722672s: None
+[2021-07-03 21:26:28,425: INFO/MainProcess] Received task: tasks.sample_tasks.check[d658975e-c65c-450c-a1f0-3638e3336072]  
+[2021-07-03 21:26:28,425: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:26:28,426: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[d658975e-c65c-450c-a1f0-3638e3336072] succeeded in 0.0009399959999427665s: None
+[2021-07-03 21:26:38,425: INFO/MainProcess] Received task: tasks.sample_tasks.check[4654f57b-bf6f-4129-9145-b2f8aad13c76]  
+[2021-07-03 21:26:38,426: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:26:38,427: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[4654f57b-bf6f-4129-9145-b2f8aad13c76] succeeded in 0.0008941720006987453s: None
+[2021-07-03 21:26:48,425: INFO/MainProcess] Received task: tasks.sample_tasks.check[7b8873d1-8cf5-4972-8f7d-ce24d7919d42]  
+[2021-07-03 21:26:48,426: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:26:48,426: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[7b8873d1-8cf5-4972-8f7d-ce24d7919d42] succeeded in 0.0009055779992195312s: None
+[2021-07-03 21:26:58,425: INFO/MainProcess] Received task: tasks.sample_tasks.check[41306e9e-4829-4b8d-97e7-44650c3eb5ba]  
+[2021-07-03 21:26:58,426: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:26:58,427: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[41306e9e-4829-4b8d-97e7-44650c3eb5ba] succeeded in 0.0008681250001245644s: None
+[2021-07-03 21:27:08,430: INFO/MainProcess] Received task: tasks.sample_tasks.check[f76fd449-6160-479b-9b04-05eae37ed810]  
+[2021-07-03 21:27:08,433: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:27:08,436: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[f76fd449-6160-479b-9b04-05eae37ed810] succeeded in 0.003490291001071455s: None
+[2021-07-03 21:27:18,425: INFO/MainProcess] Received task: tasks.sample_tasks.check[c2032cb1-6858-4894-b994-2af8eff0ca41]  
+[2021-07-03 21:27:18,426: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:27:18,427: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[c2032cb1-6858-4894-b994-2af8eff0ca41] succeeded in 0.0009393729997100309s: None
+[2021-07-03 21:27:28,426: INFO/MainProcess] Received task: tasks.sample_tasks.check[52075673-b15d-481d-a4a5-1b102a02d624]  
+[2021-07-03 21:27:28,427: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:27:28,428: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[52075673-b15d-481d-a4a5-1b102a02d624] succeeded in 0.0013754039973719046s: None
+[2021-07-03 21:27:38,426: INFO/MainProcess] Received task: tasks.sample_tasks.check[2ffa1b02-5c06-4f03-a25e-758946fe31f3]  
+[2021-07-03 21:27:38,426: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:27:38,427: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[2ffa1b02-5c06-4f03-a25e-758946fe31f3] succeeded in 0.0008216700007324107s: None
+[2021-07-03 21:27:48,426: INFO/MainProcess] Received task: tasks.sample_tasks.check[b7e4f780-ec1c-4ac7-9e53-e87f63b2d994]  
+[2021-07-03 21:27:48,427: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:27:48,429: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[b7e4f780-ec1c-4ac7-9e53-e87f63b2d994] succeeded in 0.0011864980006066617s: None
+[2021-07-03 21:27:58,426: INFO/MainProcess] Received task: tasks.sample_tasks.check[77f91a01-b8ad-49ee-9dbd-647d329e3f8b]  
+[2021-07-03 21:27:58,427: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:27:58,428: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[77f91a01-b8ad-49ee-9dbd-647d329e3f8b] succeeded in 0.0009900430013658479s: None
+[2021-07-03 21:28:08,426: INFO/MainProcess] Received task: tasks.sample_tasks.check[5f0337a7-ab2e-46e8-8f25-976f350ee38e]  
+[2021-07-03 21:28:08,427: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:28:08,428: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[5f0337a7-ab2e-46e8-8f25-976f350ee38e] succeeded in 0.0010134950025530998s: None
+[2021-07-03 21:28:18,426: INFO/MainProcess] Received task: tasks.sample_tasks.check[6492c919-edad-48f7-9f5a-63840bb53722]  
+[2021-07-03 21:28:18,427: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:28:18,428: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[6492c919-edad-48f7-9f5a-63840bb53722] succeeded in 0.0008445509993180167s: None
+[2021-07-03 21:28:28,426: INFO/MainProcess] Received task: tasks.sample_tasks.check[91084640-18b4-4e59-8e86-fc79d4960498]  
+[2021-07-03 21:28:28,427: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:28:28,427: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[91084640-18b4-4e59-8e86-fc79d4960498] succeeded in 0.0007968620011524763s: None
+[2021-07-03 21:28:38,426: INFO/MainProcess] Received task: tasks.sample_tasks.check[b5cf04a7-b64f-4b17-862f-8836d3fed42f]  
+[2021-07-03 21:28:38,427: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:28:38,428: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[b5cf04a7-b64f-4b17-862f-8836d3fed42f] succeeded in 0.0008670639981573913s: None
+[2021-07-03 21:28:48,426: INFO/MainProcess] Received task: tasks.sample_tasks.check[7fedff74-3949-4d92-8da6-16c15e6cbd98]  
+[2021-07-03 21:28:48,427: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:28:48,428: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[7fedff74-3949-4d92-8da6-16c15e6cbd98] succeeded in 0.0009548360030748881s: None
+[2021-07-03 21:28:58,427: INFO/MainProcess] Received task: tasks.sample_tasks.check[d19b0047-695d-4a0f-bd56-cf70c6c05229]  
+[2021-07-03 21:28:58,427: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:28:58,428: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[d19b0047-695d-4a0f-bd56-cf70c6c05229] succeeded in 0.0009336229995824397s: None
+[2021-07-03 21:29:08,431: INFO/MainProcess] Received task: tasks.sample_tasks.check[56f16a32-dfbc-4da8-ae34-99a96639002a]  
+[2021-07-03 21:29:08,434: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:29:08,436: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[56f16a32-dfbc-4da8-ae34-99a96639002a] succeeded in 0.00290969299749122s: None
+[2021-07-03 21:29:18,427: INFO/MainProcess] Received task: tasks.sample_tasks.check[6c706da3-f70a-4c8f-a8ba-b9359169aa69]  
+[2021-07-03 21:29:18,428: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:29:18,429: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[6c706da3-f70a-4c8f-a8ba-b9359169aa69] succeeded in 0.0009188469994114712s: None
+[2021-07-03 21:29:28,431: INFO/MainProcess] Received task: tasks.sample_tasks.check[73715aae-d621-4926-be89-d88158e5e550]  
+[2021-07-03 21:29:28,434: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:29:28,435: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[73715aae-d621-4926-be89-d88158e5e550] succeeded in 0.0014236310016713105s: None
+[2021-07-03 21:29:38,432: INFO/MainProcess] Received task: tasks.sample_tasks.check[2af8debd-3718-4df9-a0c6-2b59a92284f8]  
+[2021-07-03 21:29:38,434: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:29:38,437: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[2af8debd-3718-4df9-a0c6-2b59a92284f8] succeeded in 0.0027376959988032468s: None
+[2021-07-03 21:29:48,428: INFO/MainProcess] Received task: tasks.sample_tasks.check[8a04eac1-f9d5-4266-a687-0098dd31cb0a]  
+[2021-07-03 21:29:48,429: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:29:48,430: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[8a04eac1-f9d5-4266-a687-0098dd31cb0a] succeeded in 0.000892463001946453s: None
+[2021-07-03 21:29:58,432: INFO/MainProcess] Received task: tasks.sample_tasks.check[938a8d82-78e7-4182-947a-f540e45f9208]  
+[2021-07-03 21:29:58,435: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:29:58,437: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[938a8d82-78e7-4182-947a-f540e45f9208] succeeded in 0.002652688999660313s: None
+[2021-07-03 21:30:08,428: INFO/MainProcess] Received task: tasks.sample_tasks.check[f7db8dcb-57c5-4d45-89db-6b6ca16379f3]  
+[2021-07-03 21:30:08,429: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:30:08,430: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[f7db8dcb-57c5-4d45-89db-6b6ca16379f3] succeeded in 0.000885749002918601s: None
+[2021-07-03 21:30:18,428: INFO/MainProcess] Received task: tasks.sample_tasks.check[f664f7cb-5c19-4eda-8628-fbf2f3381f83]  
+[2021-07-03 21:30:18,429: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:30:18,430: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[f664f7cb-5c19-4eda-8628-fbf2f3381f83] succeeded in 0.0010065160022350028s: None
+[2021-07-03 21:30:28,430: INFO/MainProcess] Received task: tasks.sample_tasks.check[a00e11f6-e9a1-4229-9259-435f088b0cd1]  
+[2021-07-03 21:30:28,432: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:30:28,433: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[a00e11f6-e9a1-4229-9259-435f088b0cd1] succeeded in 0.0015100730015547015s: None
+[2021-07-03 21:30:38,430: INFO/MainProcess] Received task: tasks.sample_tasks.check[4eb65d30-a65f-45b0-b841-4a96256d9e03]  
+[2021-07-03 21:30:38,431: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:30:38,432: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[4eb65d30-a65f-45b0-b841-4a96256d9e03] succeeded in 0.0011810849973699078s: None
+[2021-07-03 21:30:48,429: INFO/MainProcess] Received task: tasks.sample_tasks.check[c8baec3e-6fa1-476d-922e-6bb3261b128d]  
+[2021-07-03 21:30:48,430: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:30:48,430: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[c8baec3e-6fa1-476d-922e-6bb3261b128d] succeeded in 0.0007653579996258486s: None
+[2021-07-03 21:30:58,429: INFO/MainProcess] Received task: tasks.sample_tasks.check[4a34ca99-49e1-4f3c-89c2-ec6dcae2190a]  
+[2021-07-03 21:30:58,430: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:30:58,431: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[4a34ca99-49e1-4f3c-89c2-ec6dcae2190a] succeeded in 0.0009661030017014127s: None
+[2021-07-03 21:31:08,429: INFO/MainProcess] Received task: tasks.sample_tasks.check[2c9ee827-0b3d-4ff2-b37d-a8cf66ec7329]  
+[2021-07-03 21:31:08,430: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:31:08,431: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[2c9ee827-0b3d-4ff2-b37d-a8cf66ec7329] succeeded in 0.0008585139985370915s: None
+[2021-07-03 21:31:18,429: INFO/MainProcess] Received task: tasks.sample_tasks.check[92529041-4c71-4674-994f-2ad1b23f5dcc]  
+[2021-07-03 21:31:18,430: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:31:18,431: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[92529041-4c71-4674-994f-2ad1b23f5dcc] succeeded in 0.0008111820025078487s: None
+[2021-07-03 21:31:28,431: INFO/MainProcess] Received task: tasks.sample_tasks.check[81c59a2b-1ad1-4eb9-8d37-5d04b6747c46]  
+[2021-07-03 21:31:28,432: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:31:28,432: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[81c59a2b-1ad1-4eb9-8d37-5d04b6747c46] succeeded in 0.0008703129969944712s: None
+[2021-07-03 21:31:38,431: INFO/MainProcess] Received task: tasks.sample_tasks.check[fcfcb55e-01c4-483e-8a5f-dc1916efc861]  
+[2021-07-03 21:31:38,432: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:31:38,433: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[fcfcb55e-01c4-483e-8a5f-dc1916efc861] succeeded in 0.0008970769995357841s: None
+[2021-07-03 21:31:48,431: INFO/MainProcess] Received task: tasks.sample_tasks.check[a251978a-856e-4b4e-9676-df47a32fb33c]  
+[2021-07-03 21:31:48,431: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:31:48,432: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[a251978a-856e-4b4e-9676-df47a32fb33c] succeeded in 0.0008612089986854699s: None
+[2021-07-03 21:31:58,431: INFO/MainProcess] Received task: tasks.sample_tasks.check[07eca09f-1afd-4315-ac2a-4f4c0c929396]  
+[2021-07-03 21:31:58,432: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:31:58,433: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[07eca09f-1afd-4315-ac2a-4f4c0c929396] succeeded in 0.0007309579996217508s: None
+[2021-07-03 21:32:08,431: INFO/MainProcess] Received task: tasks.sample_tasks.check[28d2ff4d-b91c-4f31-b7e5-292888d907b8]  
+[2021-07-03 21:32:08,432: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:32:08,433: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[28d2ff4d-b91c-4f31-b7e5-292888d907b8] succeeded in 0.0008646309979667421s: None
+[2021-07-03 21:32:18,435: INFO/MainProcess] Received task: tasks.sample_tasks.check[93d8a790-5b2a-4ccb-8a13-8acb7eeea50f]  
+[2021-07-03 21:32:18,437: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:32:18,440: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[93d8a790-5b2a-4ccb-8a13-8acb7eeea50f] succeeded in 0.0027920529973926023s: None
+[2021-07-03 21:32:28,431: INFO/MainProcess] Received task: tasks.sample_tasks.check[12be3a35-2d26-45d7-bf89-f3b9a7544625]  
+[2021-07-03 21:32:28,432: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:32:28,433: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[12be3a35-2d26-45d7-bf89-f3b9a7544625] succeeded in 0.0009405650016560685s: None
+[2021-07-03 21:32:38,431: INFO/MainProcess] Received task: tasks.sample_tasks.check[c0f3e836-0fad-4d2f-a268-303e7b639eaa]  
+[2021-07-03 21:32:38,432: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:32:38,433: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[c0f3e836-0fad-4d2f-a268-303e7b639eaa] succeeded in 0.0007222200001706369s: None
+[2021-07-03 21:32:48,431: INFO/MainProcess] Received task: tasks.sample_tasks.check[b6c97771-7741-494e-964f-a5acf8f815f2]  
+[2021-07-03 21:32:48,432: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:32:48,433: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[b6c97771-7741-494e-964f-a5acf8f815f2] succeeded in 0.0007865369989303872s: None
+[2021-07-03 21:32:58,432: INFO/MainProcess] Received task: tasks.sample_tasks.check[fe092e5f-cfb6-47fb-a186-24df063b092a]  
+[2021-07-03 21:32:58,432: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:32:58,433: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[fe092e5f-cfb6-47fb-a186-24df063b092a] succeeded in 0.0006971609982429072s: None
+[2021-07-03 21:33:08,432: INFO/MainProcess] Received task: tasks.sample_tasks.check[6c076979-a321-4b78-a2a8-5847c5c7f96c]  
+[2021-07-03 21:33:08,432: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:33:08,433: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[6c076979-a321-4b78-a2a8-5847c5c7f96c] succeeded in 0.0007928269988042302s: None
+[2021-07-03 21:33:18,432: INFO/MainProcess] Received task: tasks.sample_tasks.check[3b23a812-71c2-4ad4-a92a-f356db8e55d6]  
+[2021-07-03 21:33:18,433: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:33:18,433: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[3b23a812-71c2-4ad4-a92a-f356db8e55d6] succeeded in 0.000823145001049852s: None
+[2021-07-03 21:33:28,432: INFO/MainProcess] Received task: tasks.sample_tasks.check[1fcd8ac1-89ba-4136-9ce7-925d2bf8c884]  
+[2021-07-03 21:33:28,433: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:33:28,434: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[1fcd8ac1-89ba-4136-9ce7-925d2bf8c884] succeeded in 0.0010814499983098358s: None
+[2021-07-03 21:33:38,432: INFO/MainProcess] Received task: tasks.sample_tasks.check[bc998d2b-499c-4d2d-9a8e-18f33cf862b1]  
+[2021-07-03 21:33:38,433: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:33:38,433: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[bc998d2b-499c-4d2d-9a8e-18f33cf862b1] succeeded in 0.0007929650018922985s: None
+[2021-07-03 21:33:48,432: INFO/MainProcess] Received task: tasks.sample_tasks.check[8c7a02b4-1b44-4892-8cf0-a4fe581c6106]  
+[2021-07-03 21:33:48,433: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:33:48,434: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[8c7a02b4-1b44-4892-8cf0-a4fe581c6106] succeeded in 0.001047698999173008s: None
+[2021-07-03 21:33:58,432: INFO/MainProcess] Received task: tasks.sample_tasks.check[03802a4c-7cb5-4b96-8293-84448d82a21a]  
+[2021-07-03 21:33:58,433: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:33:58,434: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[03802a4c-7cb5-4b96-8293-84448d82a21a] succeeded in 0.0010963890017592348s: None
+[2021-07-03 21:34:08,433: INFO/MainProcess] Received task: tasks.sample_tasks.check[bf5af6fc-344a-4d63-b78e-eb0ab0579f7b]  
+[2021-07-03 21:34:08,433: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:34:08,434: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[bf5af6fc-344a-4d63-b78e-eb0ab0579f7b] succeeded in 0.0009655489993747324s: None
+[2021-07-03 21:34:18,432: INFO/MainProcess] Received task: tasks.sample_tasks.check[09686eec-54fe-4830-9ac3-ba6a4f888562]  
+[2021-07-03 21:34:18,433: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:34:18,434: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[09686eec-54fe-4830-9ac3-ba6a4f888562] succeeded in 0.0009879110002657399s: None
+[2021-07-03 21:34:28,433: INFO/MainProcess] Received task: tasks.sample_tasks.check[55901387-abe6-484b-813b-49fa68d207c5]  
+[2021-07-03 21:34:28,434: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:34:28,435: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[55901387-abe6-484b-813b-49fa68d207c5] succeeded in 0.0009045309998327866s: None
+[2021-07-03 21:34:38,434: INFO/MainProcess] Received task: tasks.sample_tasks.check[49a4d3e2-aab3-4abc-809a-402c5256f4e0]  
+[2021-07-03 21:34:38,435: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:34:38,435: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[49a4d3e2-aab3-4abc-809a-402c5256f4e0] succeeded in 0.0007221960004244465s: None
+[2021-07-03 21:34:48,434: INFO/MainProcess] Received task: tasks.sample_tasks.check[d37b4ac0-071d-4438-9894-d2c68180d387]  
+[2021-07-03 21:34:48,435: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:34:48,436: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[d37b4ac0-071d-4438-9894-d2c68180d387] succeeded in 0.001020968000375433s: None
+[2021-07-03 21:34:58,434: INFO/MainProcess] Received task: tasks.sample_tasks.check[4f3ae8eb-eae0-4fd9-b076-99513a7ac6ce]  
+[2021-07-03 21:34:58,435: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:34:58,435: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[4f3ae8eb-eae0-4fd9-b076-99513a7ac6ce] succeeded in 0.0008053179990383796s: None
+[2021-07-03 21:35:08,435: INFO/MainProcess] Received task: tasks.sample_tasks.check[fb46ee86-344b-4bde-a288-2444d7e8f96b]  
+[2021-07-03 21:35:08,436: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:35:08,437: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[fb46ee86-344b-4bde-a288-2444d7e8f96b] succeeded in 0.0011996140019618906s: None
+[2021-07-03 21:35:18,435: INFO/MainProcess] Received task: tasks.sample_tasks.check[4884835a-e379-4856-93a8-e85eac750a2b]  
+[2021-07-03 21:35:18,436: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:35:18,436: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[4884835a-e379-4856-93a8-e85eac750a2b] succeeded in 0.0008608120006101672s: None
+[2021-07-03 21:35:28,434: INFO/MainProcess] Received task: tasks.sample_tasks.check[1e35fe74-c59f-4512-a8d8-b28dcc67e060]  
+[2021-07-03 21:35:28,435: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:35:28,436: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[1e35fe74-c59f-4512-a8d8-b28dcc67e060] succeeded in 0.0008153140006470494s: None
+[2021-07-03 21:35:38,435: INFO/MainProcess] Received task: tasks.sample_tasks.check[dc91d833-f163-439a-8bac-2c1dc84b2676]  
+[2021-07-03 21:35:38,435: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:35:38,436: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[dc91d833-f163-439a-8bac-2c1dc84b2676] succeeded in 0.0008681130020704586s: None
+[2021-07-03 21:35:48,435: INFO/MainProcess] Received task: tasks.sample_tasks.check[f299843c-ad0f-4b8d-b6fb-28d98020a218]  
+[2021-07-03 21:35:48,435: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:35:48,436: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[f299843c-ad0f-4b8d-b6fb-28d98020a218] succeeded in 0.0009004420026030857s: None
+[2021-07-03 21:35:58,439: INFO/MainProcess] Received task: tasks.sample_tasks.check[9b73d229-1e09-4236-b70d-67843dbdb6e9]  
+[2021-07-03 21:35:58,441: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:35:58,443: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[9b73d229-1e09-4236-b70d-67843dbdb6e9] succeeded in 0.0026595780000207014s: None
+[2021-07-03 21:36:08,435: INFO/MainProcess] Received task: tasks.sample_tasks.check[7c6a6fea-2c60-4262-9068-cecb65944908]  
+[2021-07-03 21:36:08,436: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:36:08,436: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[7c6a6fea-2c60-4262-9068-cecb65944908] succeeded in 0.0007842980012355838s: None
+[2021-07-03 21:36:18,440: INFO/MainProcess] Received task: tasks.sample_tasks.check[7874405a-bf12-4bfe-86a3-35b3cfc8ca10]  
+[2021-07-03 21:36:18,443: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:36:18,446: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[7874405a-bf12-4bfe-86a3-35b3cfc8ca10] succeeded in 0.003224950000003446s: None
+[2021-07-03 21:36:28,435: INFO/MainProcess] Received task: tasks.sample_tasks.check[238e4a81-957e-4b74-87ef-8e43ef37834d]  
+[2021-07-03 21:36:28,436: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:36:28,437: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[238e4a81-957e-4b74-87ef-8e43ef37834d] succeeded in 0.0008511939995514695s: None
+[2021-07-03 21:36:38,436: INFO/MainProcess] Received task: tasks.sample_tasks.check[5260ab92-2b7f-41f2-adab-7c9e3129bc7f]  
+[2021-07-03 21:36:38,436: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:36:38,437: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[5260ab92-2b7f-41f2-adab-7c9e3129bc7f] succeeded in 0.0008513889988535084s: None
+[2021-07-03 21:36:48,441: INFO/MainProcess] Received task: tasks.sample_tasks.check[7b16fc46-399d-4a12-917e-d4d1583850c3]  
+[2021-07-03 21:36:48,443: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:36:48,446: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[7b16fc46-399d-4a12-917e-d4d1583850c3] succeeded in 0.0027508900020620786s: None
+[2021-07-03 21:36:58,436: INFO/MainProcess] Received task: tasks.sample_tasks.check[af9ef3c8-a245-4f9e-b3d2-1246a8eaddab]  
+[2021-07-03 21:36:58,436: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:36:58,437: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[af9ef3c8-a245-4f9e-b3d2-1246a8eaddab] succeeded in 0.0010491489993000869s: None
+[2021-07-03 21:37:08,440: INFO/MainProcess] Received task: tasks.sample_tasks.check[7efe35a5-4923-46f9-ac62-65cb7fb28075]  
+[2021-07-03 21:37:08,442: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:37:08,445: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[7efe35a5-4923-46f9-ac62-65cb7fb28075] succeeded in 0.0027888689983228687s: None
+[2021-07-03 21:37:18,436: INFO/MainProcess] Received task: tasks.sample_tasks.check[6c77255a-714e-4615-af02-d9c2fbba9aaa]  
+[2021-07-03 21:37:18,437: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:37:18,438: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[6c77255a-714e-4615-af02-d9c2fbba9aaa] succeeded in 0.0009034780014189892s: None
+[2021-07-03 21:37:28,437: INFO/MainProcess] Received task: tasks.sample_tasks.check[db1041db-e6bd-4927-b9dc-0f5e1b72dfe2]  
+[2021-07-03 21:37:28,437: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:37:28,438: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[db1041db-e6bd-4927-b9dc-0f5e1b72dfe2] succeeded in 0.0010236040034214966s: None
+[2021-07-03 21:37:38,437: INFO/MainProcess] Received task: tasks.sample_tasks.check[fb8358fd-7058-46cf-acfc-05a542a28938]  
+[2021-07-03 21:37:38,438: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:37:38,438: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[fb8358fd-7058-46cf-acfc-05a542a28938] succeeded in 0.0009538679987599608s: None
+[2021-07-03 21:37:48,440: INFO/MainProcess] Received task: tasks.sample_tasks.check[a134b280-9058-4123-ac4a-46d4835a2115]  
+[2021-07-03 21:37:48,441: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:37:48,443: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[a134b280-9058-4123-ac4a-46d4835a2115] succeeded in 0.002004336998652434s: None
+[2021-07-03 21:37:58,442: INFO/MainProcess] Received task: tasks.sample_tasks.check[8f501142-354c-40a4-92dd-bc3509f88b13]  
+[2021-07-03 21:37:58,444: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:37:58,445: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[8f501142-354c-40a4-92dd-bc3509f88b13] succeeded in 0.0013237839993962552s: None
+[2021-07-03 21:38:08,442: INFO/MainProcess] Received task: tasks.sample_tasks.check[0a46fb5d-a1b0-47e3-8677-e0e0050ffaad]  
+[2021-07-03 21:38:08,444: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:38:08,445: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[0a46fb5d-a1b0-47e3-8677-e0e0050ffaad] succeeded in 0.0012306749995332211s: None
+[2021-07-03 21:38:18,438: INFO/MainProcess] Received task: tasks.sample_tasks.check[9ed87256-f8ef-4d33-a5e6-55e82f54085b]  
+[2021-07-03 21:38:18,439: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:38:18,440: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[9ed87256-f8ef-4d33-a5e6-55e82f54085b] succeeded in 0.0009811899981286842s: None
+[2021-07-03 21:38:28,442: INFO/MainProcess] Received task: tasks.sample_tasks.check[ba5ca145-4eb7-45a9-9e9e-bf7d455cd306]  
+[2021-07-03 21:38:28,445: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:38:28,446: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[ba5ca145-4eb7-45a9-9e9e-bf7d455cd306] succeeded in 0.001133592002588557s: None
+[2021-07-03 21:38:38,439: INFO/MainProcess] Received task: tasks.sample_tasks.check[5a43d23a-5959-471a-9baf-77d0c93ed45a]  
+[2021-07-03 21:38:38,439: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:38:38,440: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[5a43d23a-5959-471a-9baf-77d0c93ed45a] succeeded in 0.0008205770027416293s: None
+[2021-07-03 21:38:48,439: INFO/MainProcess] Received task: tasks.sample_tasks.check[dedc011d-b4ea-452b-b27a-c47023aab992]  
+[2021-07-03 21:38:48,439: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:38:48,440: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[dedc011d-b4ea-452b-b27a-c47023aab992] succeeded in 0.0009365360019728541s: None
+[2021-07-03 21:38:58,443: INFO/MainProcess] Received task: tasks.sample_tasks.check[63d3abb3-c6a1-4d29-a323-7a004250b06b]  
+[2021-07-03 21:38:58,445: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:38:58,446: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[63d3abb3-c6a1-4d29-a323-7a004250b06b] succeeded in 0.0010543660027906299s: None
+[2021-07-03 21:39:08,439: INFO/MainProcess] Received task: tasks.sample_tasks.check[47edd29a-9fd8-4185-897c-df4f2048d74f]  
+[2021-07-03 21:39:08,440: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:39:08,441: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[47edd29a-9fd8-4185-897c-df4f2048d74f] succeeded in 0.0009536140023556072s: None
+[2021-07-03 21:39:18,443: INFO/MainProcess] Received task: tasks.sample_tasks.check[b380f739-f761-4a85-96f0-e440858e0e5a]  
+[2021-07-03 21:39:18,446: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:39:18,448: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[b380f739-f761-4a85-96f0-e440858e0e5a] succeeded in 0.0027423219980846625s: None
+[2021-07-03 21:39:28,440: INFO/MainProcess] Received task: tasks.sample_tasks.check[2fabe18c-14b1-43a6-acc1-fce9f83643b2]  
+[2021-07-03 21:39:28,441: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:39:28,442: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[2fabe18c-14b1-43a6-acc1-fce9f83643b2] succeeded in 0.0011214959995413665s: None
+[2021-07-03 21:39:38,440: INFO/MainProcess] Received task: tasks.sample_tasks.check[ac730e18-c93e-4d08-b1ce-7a70279065ec]  
+[2021-07-03 21:39:38,440: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:39:38,441: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[ac730e18-c93e-4d08-b1ce-7a70279065ec] succeeded in 0.0009200099993904587s: None
+[2021-07-03 21:39:48,440: INFO/MainProcess] Received task: tasks.sample_tasks.check[db887241-197a-4574-a28d-0133bee78e28]  
+[2021-07-03 21:39:48,441: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:39:48,441: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[db887241-197a-4574-a28d-0133bee78e28] succeeded in 0.0007704339986958075s: None
+[2021-07-03 21:39:58,440: INFO/MainProcess] Received task: tasks.sample_tasks.check[74e49176-2c60-47c5-bce5-d7f4258deff2]  
+[2021-07-03 21:39:58,441: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:39:58,442: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[74e49176-2c60-47c5-bce5-d7f4258deff2] succeeded in 0.001033168999128975s: None
+[2021-07-03 21:40:08,440: INFO/MainProcess] Received task: tasks.sample_tasks.check[649356a5-fb3e-4843-a1a3-00cad8ce6ec4]  
+[2021-07-03 21:40:08,441: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:40:08,442: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[649356a5-fb3e-4843-a1a3-00cad8ce6ec4] succeeded in 0.0007974000000103842s: None
+[2021-07-03 21:40:18,445: INFO/MainProcess] Received task: tasks.sample_tasks.check[4508c691-6dd8-46cf-bb07-50d47b4cf745]  
+[2021-07-03 21:40:18,447: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:40:18,449: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[4508c691-6dd8-46cf-bb07-50d47b4cf745] succeeded in 0.0026564130021142773s: None
+[2021-07-03 21:40:28,442: INFO/MainProcess] Received task: tasks.sample_tasks.check[f232aa12-766f-423d-aa22-c60a048dc5dc]  
+[2021-07-03 21:40:28,443: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:40:28,444: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[f232aa12-766f-423d-aa22-c60a048dc5dc] succeeded in 0.0009192659999825992s: None
+[2021-07-03 21:40:38,442: INFO/MainProcess] Received task: tasks.sample_tasks.check[ff3cec23-7729-4371-a5df-5a92f918e11e]  
+[2021-07-03 21:40:38,443: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:40:38,444: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[ff3cec23-7729-4371-a5df-5a92f918e11e] succeeded in 0.0010117909987457097s: None
+[2021-07-03 21:40:48,443: INFO/MainProcess] Received task: tasks.sample_tasks.check[5b8cc324-3729-47c9-aabc-6234cac7286e]  
+[2021-07-03 21:40:48,443: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:40:48,444: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[5b8cc324-3729-47c9-aabc-6234cac7286e] succeeded in 0.0011089870022260584s: None
+[2021-07-03 21:40:58,447: INFO/MainProcess] Received task: tasks.sample_tasks.check[8ed1e55f-720e-4c8e-ade2-e3afc8244ed6]  
+[2021-07-03 21:40:58,449: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:40:58,452: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[8ed1e55f-720e-4c8e-ade2-e3afc8244ed6] succeeded in 0.002869197000109125s: None
+[2021-07-03 21:41:08,443: INFO/MainProcess] Received task: tasks.sample_tasks.check[5960c257-b549-476e-8c29-c2a8cde0485e]  
+[2021-07-03 21:41:08,444: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:41:08,445: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[5960c257-b549-476e-8c29-c2a8cde0485e] succeeded in 0.001184730001114076s: None
+[2021-07-03 21:41:18,443: INFO/MainProcess] Received task: tasks.sample_tasks.check[8d5b6a95-9bbe-457f-a9cb-06e9315ec495]  
+[2021-07-03 21:41:18,444: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:41:18,444: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[8d5b6a95-9bbe-457f-a9cb-06e9315ec495] succeeded in 0.0008733780014154036s: None
+[2021-07-03 21:41:28,447: INFO/MainProcess] Received task: tasks.sample_tasks.check[e61b0c69-55e9-4a2f-81cb-0240f33564a4]  
+[2021-07-03 21:41:28,449: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:41:28,452: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[e61b0c69-55e9-4a2f-81cb-0240f33564a4] succeeded in 0.0026883969985647127s: None
+[2021-07-03 21:41:38,443: INFO/MainProcess] Received task: tasks.sample_tasks.check[13aaf2ef-fa20-4c38-bbf5-0cc4a4f8312c]  
+[2021-07-03 21:41:38,444: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:41:38,445: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[13aaf2ef-fa20-4c38-bbf5-0cc4a4f8312c] succeeded in 0.0010874180006794631s: None
+[2021-07-03 21:41:48,443: INFO/MainProcess] Received task: tasks.sample_tasks.check[ce8d600a-8764-4a7a-8d02-2a877d028def]  
+[2021-07-03 21:41:48,444: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:41:48,445: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[ce8d600a-8764-4a7a-8d02-2a877d028def] succeeded in 0.0008225519995903596s: None
+[2021-07-03 21:41:58,443: INFO/MainProcess] Received task: tasks.sample_tasks.check[18682b7f-b648-4810-b89a-57e5c782ec1e]  
+[2021-07-03 21:41:58,444: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:41:58,445: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[18682b7f-b648-4810-b89a-57e5c782ec1e] succeeded in 0.0008642669999971986s: None
+[2021-07-03 21:42:08,444: INFO/MainProcess] Received task: tasks.sample_tasks.check[3df2d70e-56b4-4de7-92ab-8e460405e6a7]  
+[2021-07-03 21:42:08,444: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:42:08,445: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[3df2d70e-56b4-4de7-92ab-8e460405e6a7] succeeded in 0.0009409089980181307s: None
+[2021-07-03 21:42:18,444: INFO/MainProcess] Received task: tasks.sample_tasks.check[3a215344-6cf0-4458-8c52-b7c1ca1e9dc0]  
+[2021-07-03 21:42:18,445: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:42:18,446: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[3a215344-6cf0-4458-8c52-b7c1ca1e9dc0] succeeded in 0.001156596998043824s: None
+[2021-07-03 21:42:28,448: INFO/MainProcess] Received task: tasks.sample_tasks.check[2ccf120a-f934-4900-b039-68633b79b791]  
+[2021-07-03 21:42:28,450: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:42:28,452: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[2ccf120a-f934-4900-b039-68633b79b791] succeeded in 0.002764639997621998s: None
+[2021-07-03 21:42:38,447: INFO/MainProcess] Received task: tasks.sample_tasks.check[b8710bc7-488f-4576-b904-86b6118898f5]  
+[2021-07-03 21:42:38,449: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:42:38,451: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[b8710bc7-488f-4576-b904-86b6118898f5] succeeded in 0.00208409699916956s: None
+[2021-07-03 21:42:48,444: INFO/MainProcess] Received task: tasks.sample_tasks.check[c34ceded-1bc1-411b-9771-ff9621f75e76]  
+[2021-07-03 21:42:48,445: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:42:48,446: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[c34ceded-1bc1-411b-9771-ff9621f75e76] succeeded in 0.0009871749971352983s: None
+[2021-07-03 21:42:58,444: INFO/MainProcess] Received task: tasks.sample_tasks.check[d34eb5d6-dd2e-4a5b-9bee-3e7c767034d4]  
+[2021-07-03 21:42:58,445: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:42:58,446: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[d34eb5d6-dd2e-4a5b-9bee-3e7c767034d4] succeeded in 0.0010674740005924832s: None
+[2021-07-03 21:43:08,446: INFO/MainProcess] Received task: tasks.sample_tasks.check[b0e08b81-798c-4a76-a6a9-51bb7b48facc]  
+[2021-07-03 21:43:08,447: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:43:08,448: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[b0e08b81-798c-4a76-a6a9-51bb7b48facc] succeeded in 0.0010775250011647586s: None
+[2021-07-03 21:43:18,445: INFO/MainProcess] Received task: tasks.sample_tasks.check[8d399ee7-8051-40b2-9d66-2918848cf4af]  
+[2021-07-03 21:43:18,446: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:43:18,446: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[8d399ee7-8051-40b2-9d66-2918848cf4af] succeeded in 0.0008828060017549433s: None
+[2021-07-03 21:43:28,446: INFO/MainProcess] Received task: tasks.sample_tasks.check[f0d20e43-9ea5-42c5-aebe-52545967b7c3]  
+[2021-07-03 21:43:28,447: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:43:28,448: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[f0d20e43-9ea5-42c5-aebe-52545967b7c3] succeeded in 0.0011226780006836634s: None
+[2021-07-03 21:43:38,446: INFO/MainProcess] Received task: tasks.sample_tasks.check[dec224be-c939-41d5-aaee-42ba421eadaa]  
+[2021-07-03 21:43:38,447: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:43:38,448: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[dec224be-c939-41d5-aaee-42ba421eadaa] succeeded in 0.0010394710006949026s: None
+[2021-07-03 21:43:48,446: INFO/MainProcess] Received task: tasks.sample_tasks.check[727f0bb6-1676-47fe-8efc-78d2b0f9c556]  
+[2021-07-03 21:43:48,446: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:43:48,447: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[727f0bb6-1676-47fe-8efc-78d2b0f9c556] succeeded in 0.0010138090001419187s: None
+[2021-07-03 21:43:58,446: INFO/MainProcess] Received task: tasks.sample_tasks.check[e20c214c-5d1f-4bea-aff8-ffc010125904]  
+[2021-07-03 21:43:58,447: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:43:58,447: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[e20c214c-5d1f-4bea-aff8-ffc010125904] succeeded in 0.000916646997211501s: None
+[2021-07-03 21:44:08,446: INFO/MainProcess] Received task: tasks.sample_tasks.check[7dc36d2a-1137-4f79-92c3-1f8594cca1ed]  
+[2021-07-03 21:44:08,447: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:44:08,448: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[7dc36d2a-1137-4f79-92c3-1f8594cca1ed] succeeded in 0.000953203001699876s: None
+[2021-07-03 21:44:18,446: INFO/MainProcess] Received task: tasks.sample_tasks.check[481cbc32-4f01-4434-b783-079fcfd197be]  
+[2021-07-03 21:44:18,447: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:44:18,447: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[481cbc32-4f01-4434-b783-079fcfd197be] succeeded in 0.0007913379995443393s: None
+[2021-07-03 21:44:28,446: INFO/MainProcess] Received task: tasks.sample_tasks.check[a9b99c9e-5e23-45ca-9f5c-422ee61425d2]  
+[2021-07-03 21:44:28,447: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:44:28,448: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[a9b99c9e-5e23-45ca-9f5c-422ee61425d2] succeeded in 0.0009176019993901718s: None
+[2021-07-03 21:44:38,446: INFO/MainProcess] Received task: tasks.sample_tasks.check[c6e27174-b6a4-4b5e-8c24-1388b2695091]  
+[2021-07-03 21:44:38,447: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:44:38,448: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[c6e27174-b6a4-4b5e-8c24-1388b2695091] succeeded in 0.0009548570014885627s: None
+[2021-07-03 21:44:48,446: INFO/MainProcess] Received task: tasks.sample_tasks.check[09a94c1e-6c04-4922-b5b6-fceaac0fa80f]  
+[2021-07-03 21:44:48,447: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:44:48,448: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[09a94c1e-6c04-4922-b5b6-fceaac0fa80f] succeeded in 0.001069237998308381s: None
+[2021-07-03 21:44:58,447: INFO/MainProcess] Received task: tasks.sample_tasks.check[baacfb64-9ffa-4d57-bd4e-e797b64d2d75]  
+[2021-07-03 21:44:58,447: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:44:58,448: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[baacfb64-9ffa-4d57-bd4e-e797b64d2d75] succeeded in 0.0010577329994703177s: None
+[2021-07-03 21:45:08,447: INFO/MainProcess] Received task: tasks.sample_tasks.check[910e3813-23ec-48fe-9328-a11b76ba04ef]  
+[2021-07-03 21:45:08,448: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:45:08,448: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[910e3813-23ec-48fe-9328-a11b76ba04ef] succeeded in 0.0008882949987309985s: None
+[2021-07-03 21:45:18,451: INFO/MainProcess] Received task: tasks.sample_tasks.check[34560c0b-0a8d-4784-9488-b5c22b3de752]  
+[2021-07-03 21:45:18,453: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:45:18,455: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[34560c0b-0a8d-4784-9488-b5c22b3de752] succeeded in 0.002725366997765377s: None
+[2021-07-03 21:45:28,447: INFO/MainProcess] Received task: tasks.sample_tasks.check[8bcb13f6-7406-43cc-8101-0f541d0a8b9b]  
+[2021-07-03 21:45:28,448: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:45:28,448: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[8bcb13f6-7406-43cc-8101-0f541d0a8b9b] succeeded in 0.000894371001777472s: None
+[2021-07-03 21:45:38,448: INFO/MainProcess] Received task: tasks.sample_tasks.check[7bbe8d46-6f15-4b80-94a9-f9bfaa149dcb]  
+[2021-07-03 21:45:38,448: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:45:38,449: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[7bbe8d46-6f15-4b80-94a9-f9bfaa149dcb] succeeded in 0.0007813179981894791s: None
+[2021-07-03 21:45:48,448: INFO/MainProcess] Received task: tasks.sample_tasks.check[4e054e25-3aee-4b20-b3fa-30d5e703633f]  
+[2021-07-03 21:45:48,449: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:45:48,450: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[4e054e25-3aee-4b20-b3fa-30d5e703633f] succeeded in 0.0014693970006192103s: None
+[2021-07-03 21:45:58,447: INFO/MainProcess] Received task: tasks.sample_tasks.check[ee9c6a45-855b-4451-9436-b3c9f40019df]  
+[2021-07-03 21:45:58,448: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:45:58,449: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[ee9c6a45-855b-4451-9436-b3c9f40019df] succeeded in 0.000940851001359988s: None
+[2021-07-03 21:46:08,448: INFO/MainProcess] Received task: tasks.sample_tasks.check[fa33a673-6f9e-4687-a7df-dc892b05a393]  
+[2021-07-03 21:46:08,449: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:46:08,450: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[fa33a673-6f9e-4687-a7df-dc892b05a393] succeeded in 0.0012420999992173165s: None
+[2021-07-03 21:46:18,447: INFO/MainProcess] Received task: tasks.sample_tasks.check[172e064c-d45f-442c-9dcb-615af0d38cfb]  
+[2021-07-03 21:46:18,448: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:46:18,449: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[172e064c-d45f-442c-9dcb-615af0d38cfb] succeeded in 0.0008647899994684849s: None
+[2021-07-03 21:46:28,447: INFO/MainProcess] Received task: tasks.sample_tasks.check[d4b1930c-be01-4935-8ad1-bd8441f188e8]  
+[2021-07-03 21:46:28,448: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:46:28,449: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[d4b1930c-be01-4935-8ad1-bd8441f188e8] succeeded in 0.0007328749998123385s: None
+[2021-07-03 21:46:38,452: INFO/MainProcess] Received task: tasks.sample_tasks.check[25b515be-f814-4e9a-94d8-365a282a6a29]  
+[2021-07-03 21:46:38,454: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:46:38,457: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[25b515be-f814-4e9a-94d8-365a282a6a29] succeeded in 0.002617158002976794s: None
+[2021-07-03 21:46:48,448: INFO/MainProcess] Received task: tasks.sample_tasks.check[31e189c6-a505-4e86-ade5-964635e7ed6d]  
+[2021-07-03 21:46:48,449: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:46:48,450: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[31e189c6-a505-4e86-ade5-964635e7ed6d] succeeded in 0.0009040129989443813s: None
+[2021-07-03 21:46:58,448: INFO/MainProcess] Received task: tasks.sample_tasks.check[d76c8ac4-1714-40b3-8d7b-345d3b817ce0]  
+[2021-07-03 21:46:58,449: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:46:58,450: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[d76c8ac4-1714-40b3-8d7b-345d3b817ce0] succeeded in 0.0011070500004279893s: None
+[2021-07-03 21:47:08,448: INFO/MainProcess] Received task: tasks.sample_tasks.check[85f234d0-5d39-49bb-8a64-88c04161b37e]  
+[2021-07-03 21:47:08,449: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:47:08,450: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[85f234d0-5d39-49bb-8a64-88c04161b37e] succeeded in 0.0009738619992276654s: None
+[2021-07-03 21:47:18,448: INFO/MainProcess] Received task: tasks.sample_tasks.check[b62e77e2-df41-4a28-8a49-fcee69b750b4]  
+[2021-07-03 21:47:18,449: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:47:18,450: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[b62e77e2-df41-4a28-8a49-fcee69b750b4] succeeded in 0.0010112680029124022s: None
+[2021-07-03 21:47:28,448: INFO/MainProcess] Received task: tasks.sample_tasks.check[3522dd61-d9ce-448a-a6ae-fc9872014f7a]  
+[2021-07-03 21:47:28,449: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:47:28,450: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[3522dd61-d9ce-448a-a6ae-fc9872014f7a] succeeded in 0.0009129690006375313s: None
+[2021-07-03 21:47:38,449: INFO/MainProcess] Received task: tasks.sample_tasks.check[fbb0ac74-b7fd-4a56-864e-0a0b93b69345]  
+[2021-07-03 21:47:38,450: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:47:38,451: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[fbb0ac74-b7fd-4a56-864e-0a0b93b69345] succeeded in 0.0011695479988702573s: None
+[2021-07-03 21:47:48,453: INFO/MainProcess] Received task: tasks.sample_tasks.check[105d53e5-2244-421f-b12b-9c43faba5149]  
+[2021-07-03 21:47:48,455: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:47:48,458: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[105d53e5-2244-421f-b12b-9c43faba5149] succeeded in 0.0024574519993620925s: None
+[2021-07-03 21:47:58,449: INFO/MainProcess] Received task: tasks.sample_tasks.check[3baf27a0-a782-4c70-84bd-013322b8e9e9]  
+[2021-07-03 21:47:58,450: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:47:58,451: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[3baf27a0-a782-4c70-84bd-013322b8e9e9] succeeded in 0.0010150470006919932s: None
+[2021-07-03 21:48:08,455: INFO/MainProcess] Received task: tasks.sample_tasks.check[eff93ce7-f601-4173-8b4f-03ba36edbbcf]  
+[2021-07-03 21:48:08,457: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:48:08,459: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[eff93ce7-f601-4173-8b4f-03ba36edbbcf] succeeded in 0.002580202002718579s: None
+[2021-07-03 21:48:18,454: INFO/MainProcess] Received task: tasks.sample_tasks.check[fa0c6f39-299e-4129-9bd9-b7c10b61fa61]  
+[2021-07-03 21:48:18,456: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:48:18,458: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[fa0c6f39-299e-4129-9bd9-b7c10b61fa61] succeeded in 0.0026106510013050865s: None
+[2021-07-03 21:48:28,450: INFO/MainProcess] Received task: tasks.sample_tasks.check[47686005-6275-4c62-ae72-c3aa67e3a76c]  
+[2021-07-03 21:48:28,450: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:48:28,451: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[47686005-6275-4c62-ae72-c3aa67e3a76c] succeeded in 0.0008071490010479465s: None
+[2021-07-03 21:48:38,450: INFO/MainProcess] Received task: tasks.sample_tasks.check[661ce6a7-8c1c-4fb0-b77b-dfd94aa734f7]  
+[2021-07-03 21:48:38,451: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:48:38,452: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[661ce6a7-8c1c-4fb0-b77b-dfd94aa734f7] succeeded in 0.0010038439977506641s: None
+[2021-07-03 21:48:48,450: INFO/MainProcess] Received task: tasks.sample_tasks.check[b1d8a5e2-b103-485b-8ad9-335f62fb2782]  
+[2021-07-03 21:48:48,451: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:48:48,452: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[b1d8a5e2-b103-485b-8ad9-335f62fb2782] succeeded in 0.0008889220007404219s: None
+[2021-07-03 21:48:58,450: INFO/MainProcess] Received task: tasks.sample_tasks.check[ae2bb204-5387-47ce-a9f2-89b870bc7ea5]  
+[2021-07-03 21:48:58,451: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:48:58,452: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[ae2bb204-5387-47ce-a9f2-89b870bc7ea5] succeeded in 0.000945013998716604s: None
+[2021-07-03 21:49:08,451: INFO/MainProcess] Received task: tasks.sample_tasks.check[09b91e0f-be20-442b-a9de-a34ddf87870f]  
+[2021-07-03 21:49:08,451: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:49:08,452: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[09b91e0f-be20-442b-a9de-a34ddf87870f] succeeded in 0.000842704001115635s: None
+[2021-07-03 21:49:18,450: INFO/MainProcess] Received task: tasks.sample_tasks.check[590a0d3b-202c-48ed-b8db-0123aeac6321]  
+[2021-07-03 21:49:18,451: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:49:18,452: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[590a0d3b-202c-48ed-b8db-0123aeac6321] succeeded in 0.0009562319974065758s: None
+[2021-07-03 21:49:28,452: INFO/MainProcess] Received task: tasks.sample_tasks.check[d0d2c888-4c29-4e0a-9353-cbc38d9b4fe4]  
+[2021-07-03 21:49:28,453: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:49:28,454: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[d0d2c888-4c29-4e0a-9353-cbc38d9b4fe4] succeeded in 0.001079492998542264s: None
+[2021-07-03 21:49:38,452: INFO/MainProcess] Received task: tasks.sample_tasks.check[5c577f16-34f0-480c-9863-ac9f267f8784]  
+[2021-07-03 21:49:38,453: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:49:38,454: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[5c577f16-34f0-480c-9863-ac9f267f8784] succeeded in 0.0008991889990284108s: None
+[2021-07-03 21:49:48,457: INFO/MainProcess] Received task: tasks.sample_tasks.check[adb0a8b1-91ab-4e43-89ee-39f302802bf7]  
+[2021-07-03 21:49:48,459: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:49:48,462: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[adb0a8b1-91ab-4e43-89ee-39f302802bf7] succeeded in 0.002866867998818634s: None
+[2021-07-03 21:49:58,453: INFO/MainProcess] Received task: tasks.sample_tasks.check[5bea88bf-8c2f-4bea-8525-4e377f07aa00]  
+[2021-07-03 21:49:58,454: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:49:58,455: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[5bea88bf-8c2f-4bea-8525-4e377f07aa00] succeeded in 0.000931471000512829s: None
+[2021-07-03 21:50:08,452: INFO/MainProcess] Received task: tasks.sample_tasks.check[e2638b06-39ec-4ed7-a327-31046a64c7b4]  
+[2021-07-03 21:50:08,453: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:50:08,454: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[e2638b06-39ec-4ed7-a327-31046a64c7b4] succeeded in 0.000846327002363978s: None
+[2021-07-03 21:50:18,452: INFO/MainProcess] Received task: tasks.sample_tasks.check[d0fe2626-5e0a-42e4-8ba6-35f2544dc802]  
+[2021-07-03 21:50:18,453: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:50:18,454: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[d0fe2626-5e0a-42e4-8ba6-35f2544dc802] succeeded in 0.0009772480007086415s: None
+[2021-07-03 21:50:28,452: INFO/MainProcess] Received task: tasks.sample_tasks.check[32987983-911d-4df7-a86b-4aade6a74bfc]  
+[2021-07-03 21:50:28,453: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:50:28,454: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[32987983-911d-4df7-a86b-4aade6a74bfc] succeeded in 0.0010138190009456594s: None
+[2021-07-03 21:50:38,453: INFO/MainProcess] Received task: tasks.sample_tasks.check[73707228-ff91-42aa-b0ec-6b9361ccb0c2]  
+[2021-07-03 21:50:38,454: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:50:38,455: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[73707228-ff91-42aa-b0ec-6b9361ccb0c2] succeeded in 0.0008911770019039977s: None
+[2021-07-03 21:50:48,453: INFO/MainProcess] Received task: tasks.sample_tasks.check[4b54c920-0982-40c1-b890-2470ec138e5d]  
+[2021-07-03 21:50:48,454: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:50:48,454: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[4b54c920-0982-40c1-b890-2470ec138e5d] succeeded in 0.0008321079985762481s: None
+[2021-07-03 21:50:58,453: INFO/MainProcess] Received task: tasks.sample_tasks.check[ac0987ad-d5f8-455a-ac98-0495ccae1871]  
+[2021-07-03 21:50:58,453: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:50:58,454: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[ac0987ad-d5f8-455a-ac98-0495ccae1871] succeeded in 0.0008316819985338952s: None
+[2021-07-03 21:51:08,453: INFO/MainProcess] Received task: tasks.sample_tasks.check[dba9ff19-3be1-482f-a1fd-d8815f6c5ae7]  
+[2021-07-03 21:51:08,453: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:51:08,454: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[dba9ff19-3be1-482f-a1fd-d8815f6c5ae7] succeeded in 0.0009915350019582547s: None
+[2021-07-03 21:51:18,453: INFO/MainProcess] Received task: tasks.sample_tasks.check[aa841e9a-7d1c-4237-8f8d-614e49e53f5a]  
+[2021-07-03 21:51:18,454: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:51:18,455: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[aa841e9a-7d1c-4237-8f8d-614e49e53f5a] succeeded in 0.000945121002587257s: None
+[2021-07-03 21:51:28,453: INFO/MainProcess] Received task: tasks.sample_tasks.check[f0e100af-ea44-4348-bc82-7fce5f1f4a5d]  
+[2021-07-03 21:51:28,454: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:51:28,455: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[f0e100af-ea44-4348-bc82-7fce5f1f4a5d] succeeded in 0.0008773820009082556s: None
+[2021-07-03 21:51:38,453: INFO/MainProcess] Received task: tasks.sample_tasks.check[11c8dbf8-6bdd-40f6-8312-4fc8b46e3b02]  
+[2021-07-03 21:51:38,454: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:51:38,455: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[11c8dbf8-6bdd-40f6-8312-4fc8b46e3b02] succeeded in 0.0010137509998457972s: None
+[2021-07-03 21:51:48,455: INFO/MainProcess] Received task: tasks.sample_tasks.check[9a143d20-5336-4038-9714-e1231a60a3f9]  
+[2021-07-03 21:51:48,456: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:51:48,457: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[9a143d20-5336-4038-9714-e1231a60a3f9] succeeded in 0.0013674039983015973s: None
+[2021-07-03 21:51:58,453: INFO/MainProcess] Received task: tasks.sample_tasks.check[671cbbf0-c137-4efc-955b-97201f917c38]  
+[2021-07-03 21:51:58,454: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:51:58,455: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[671cbbf0-c137-4efc-955b-97201f917c38] succeeded in 0.000794277002569288s: None
+[2021-07-03 21:52:08,455: INFO/MainProcess] Received task: tasks.sample_tasks.check[f1c18778-1088-4ece-8a7b-ac7315836967]  
+[2021-07-03 21:52:08,456: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:52:08,457: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[f1c18778-1088-4ece-8a7b-ac7315836967] succeeded in 0.0013370119995670393s: None
+[2021-07-03 21:52:18,453: INFO/MainProcess] Received task: tasks.sample_tasks.check[41b2c920-20e1-47fb-89f2-900a2ed77579]  
+[2021-07-03 21:52:18,454: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:52:18,455: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[41b2c920-20e1-47fb-89f2-900a2ed77579] succeeded in 0.0008372629999939818s: None
+[2021-07-03 21:52:28,455: INFO/MainProcess] Received task: tasks.sample_tasks.check[918115d5-4d12-4526-abe2-e611829113d8]  
+[2021-07-03 21:52:28,456: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:52:28,456: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[918115d5-4d12-4526-abe2-e611829113d8] succeeded in 0.0008853030012687668s: None
+[2021-07-03 21:52:38,455: INFO/MainProcess] Received task: tasks.sample_tasks.check[98face58-38fb-44b2-ae0d-cf5cc50027c6]  
+[2021-07-03 21:52:38,455: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:52:38,456: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[98face58-38fb-44b2-ae0d-cf5cc50027c6] succeeded in 0.0009142529997916427s: None
+[2021-07-03 21:52:48,455: INFO/MainProcess] Received task: tasks.sample_tasks.check[09c95323-d472-4bd0-bb5c-21dd23154db9]  
+[2021-07-03 21:52:48,455: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:52:48,456: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[09c95323-d472-4bd0-bb5c-21dd23154db9] succeeded in 0.0008879229972080793s: None
+[2021-07-03 21:52:58,459: INFO/MainProcess] Received task: tasks.sample_tasks.check[18fe7de5-9034-415d-b3f2-9ae9be2644fa]  
+[2021-07-03 21:52:58,462: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:52:58,464: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[18fe7de5-9034-415d-b3f2-9ae9be2644fa] succeeded in 0.0026747230003820732s: None
+[2021-07-03 21:53:08,455: INFO/MainProcess] Received task: tasks.sample_tasks.check[08798051-0273-4be4-af21-940a82dd1f6f]  
+[2021-07-03 21:53:08,456: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:53:08,457: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[08798051-0273-4be4-af21-940a82dd1f6f] succeeded in 0.00106588799826568s: None
+[2021-07-03 21:53:18,455: INFO/MainProcess] Received task: tasks.sample_tasks.check[44d49265-e5bc-4ace-b78b-ebb7039b6960]  
+[2021-07-03 21:53:18,456: WARNING/ForkPoolWorker-7] I am checking your stuff
+[2021-07-03 21:53:18,456: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.check[44d49265-e5bc-4ace-b78b-ebb7039b6960] succeeded in 0.0008615090009698179s: None
