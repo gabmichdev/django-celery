@@ -4,3 +4,5 @@ env
 *.sqlite3
 .DS_Store
 staticfiles
+*.log
+celerybeat-schedule
